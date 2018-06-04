@@ -1,0 +1,9 @@
+E:\C#WorkSpace\GSerach\GSerach\bin\Debug\GSerach.exe.config
+E:\C#WorkSpace\GSerach\GSerach\bin\Debug\GSerach.exe
+E:\C#WorkSpace\GSerach\GSerach\bin\Debug\GSerach.pdb
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.csprojResolveAssemblyReference.cache
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.Properties.Resources.resources
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.csproj.GenerateResource.Cache
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.exe
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.pdb
+E:\C#WorkSpace\GSerach\GSerach\obj\Debug\GSerach.GSearchForm.resources

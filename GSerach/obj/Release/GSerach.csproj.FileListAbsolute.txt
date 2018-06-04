@@ -1,0 +1,8 @@
+E:\C#WorkSpace\GSerach\GSerach\bin\Release\GSerach.exe.config
+E:\C#WorkSpace\GSerach\GSerach\bin\Release\GSerach.exe
+E:\C#WorkSpace\GSerach\GSerach\bin\Release\GSerach.pdb
+E:\C#WorkSpace\GSerach\GSerach\obj\Release\GSerach.GSearchForm.resources
+E:\C#WorkSpace\GSerach\GSerach\obj\Release\GSerach.Properties.Resources.resources
+E:\C#WorkSpace\GSerach\GSerach\obj\Release\GSerach.csproj.GenerateResource.Cache
+E:\C#WorkSpace\GSerach\GSerach\obj\Release\GSerach.exe
+E:\C#WorkSpace\GSerach\GSerach\obj\Release\GSerach.pdb
