@@ -17,10 +17,18 @@ namespace GSerach
         public GSearchForm()
         {
             InitializeComponent();
+
+            dt = new DataTable();
+            dt.Columns.Add(new DataColumn("文件名", typeof(string)));
+            dt.Columns.Add(new DataColumn("行列", typeof(string)));
+            dt.Columns.Add(new DataColumn("匹配内容", typeof(string)));
+            dt.Columns.Add(new DataColumn("创建时间", typeof(DateTime)));
+            dt.Columns.Add(new DataColumn("最后修改时间", typeof(DateTime)));
+            dt.Columns.Add(new DataColumn("路径", typeof(string)));
         }
 
         private string lastFolder = "";
-        private DataTable dt = new DataTable();
+        private DataTable dt;
         private string selectPath;
         private string fullPath;
 
@@ -73,14 +81,7 @@ namespace GSerach
                 }
             }
             
-            dt.Reset();
-            dt.Columns.Add(new DataColumn("文件名", typeof(string)));
-            dt.Columns.Add(new DataColumn("行列", typeof(string)));
-            dt.Columns.Add(new DataColumn("匹配内容", typeof(string)));
-            dt.Columns.Add(new DataColumn("创建时间", typeof(DateTime)));
-            dt.Columns.Add(new DataColumn("最后修改时间", typeof(DateTime)));
-            dt.Columns.Add(new DataColumn("路径", typeof(string)));
-
+            dt.Clear();
 
             string[] paths = Directory.GetFiles(lastFolder, "*.*", SearchOption.AllDirectories);
             foreach (var p in paths)
@@ -111,6 +112,7 @@ namespace GSerach
             }
 
             dataGridView1.DataSource = dt;
+            dataGridView1.Refresh();
         }
 
         private void dataGridView1_CellMouseClick(object sender, DataGridViewCellMouseEventArgs e)
